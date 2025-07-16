@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="2461795_DibeshSapkota_weatherapp.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="search" id="searchbox">
+        <input
+          id="searchInput"
+          type="text"
+          placeholder="ENTER A CITY NAME"
+          spellcheck="false"
+        />
+        <button id="searchh"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+
+      <div class="weather-data">
+        <div class="day-date">
+          <span id="dayDate">-</span>
+        </div>
+        <div class="header">
+          <div class="city-name">
+            <span id="cityName">-</span>
+          </div>
+          <div>
+            <span id="mainWeather">-</span>
+          </div>
+          <div>
+            <span id="weatherCondition">-</span>
+          </div>
+        </div>
+        <div class="temperature-section">
+          <div class="temperature"><span id="temperature"></span> C</div>
+          <div class="icon">
+            <img id="weatherIcon" src="" alt="Weather Icon" />
+          </div>
+        </div>
+
+        <div class="details">
+          <div class="extra-info">
+            <div class="box">
+              <div class="fa-solid fa-arrows-to-circle"></div>
+              <div>Pressure</div>
+              <div><span id="pressure">-</span> hPa</div>
+            </div>
+            <div class="box">
+              <div class="fa-solid fa-droplet"></div>
+              <div>Humidity</div>
+              <div><span id="humidity">-</span>%</div>
+            </div>
+            <div class="box">
+              <div class="fa-solid fa-wind"></div>
+              <div>Wind</div>
+              <div><span id="windSpeed">-</span> m/s</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="2461795_DibeshSapkota_weatherapp.js"></script>
+  </body>
+</html>
